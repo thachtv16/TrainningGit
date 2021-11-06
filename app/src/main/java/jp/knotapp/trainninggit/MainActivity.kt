@@ -11,6 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("HoaPhat","1")
         Log.d("HoaPhat","2")
+        Log.d("thachtv", "onCreate: 1")
+        Log.d("thachtv", "onCreate: 2")
+        Log.d("thachtv", "onCreate: 3")
 
         firstTest()
         secondTest()
