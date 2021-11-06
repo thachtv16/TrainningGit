@@ -8,9 +8,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.d("HoaPhat","1")
+        Log.d("HoaPhat","2")
     }
 
     private fun saveSecondTest() {
-        Log.d("thachtv", "saveSecondTest: second test")
+        Log.d("Hoaphat", "saveSecondTest: second test")
+        Log.d("HoaPhat", "saveSecondTest: second test")
     }
 }
